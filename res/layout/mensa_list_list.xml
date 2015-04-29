@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textSize="18.0sp" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/darkgrey" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageButton android:id="@id/prevButton" android:background="@null" android:paddingLeft="6.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/calender_arrow_left" android:onClick="prevClicked" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/lightgrey" android:gravity="center" android:layout_gravity="center" android:id="@id/mealDate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.15" />
+        <ImageButton android:id="@id/nextButton" android:background="@null" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@drawable/calender_arrow_right" android:onClick="nextClicked" />
+        <ImageButton android:id="@id/imageButton1" android:background="@null" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/calender" android:onClick="calendarClicked" />
+    </LinearLayout>
+    <ListView android:id="@android:id/list" android:background="@color/grey" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_weight="1.0" />
+    <TextView android:textSize="15.0sp" android:textColor="@android:color/darker_gray" android:gravity="center_horizontal" android:id="@id/mealActuality" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <WebView android:id="@id/webview" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" />
+</LinearLayout>

@@ -1,0 +1,148 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: qQbkpQBekc0eU1LDw8pny98j6Vw=
+
+Name: res/layout/mensa_meal_item.xml
+SHA1-Digest: wzRKKhcnxjMWOebZOSVprtL3YWw=
+
+Name: res/drawable/cal_highlighted.png
+SHA1-Digest: HYnHLStLD8T5lurcSPgH9xOAzH8=
+
+Name: res/layout/mensa_simple_spinner_dropdown_item.xml
+SHA1-Digest: hxpkM7Jar7oXZjgHPhhKfBaj+W0=
+
+Name: res/drawable/vegan.png
+SHA1-Digest: UjFRqXqrAx0KldWH6R5GCLxG7Ys=
+
+Name: res/layout/listview.xml
+SHA1-Digest: nOlzgRKsLGLOQ30F1n0OLfRxflM=
+
+Name: res/layout/rating.xml
+SHA1-Digest: wyiZKN7JYWGG3qghEZu1oIVaS7w=
+
+Name: resources.arsc
+SHA1-Digest: TI49kgf90C+ZYgP+BV5eD5lGcfs=
+
+Name: res/layout/settings_simple_spinner_item.xml
+SHA1-Digest: VoBbu9eW10elWReGaqWMELsEQNI=
+
+Name: res/drawable/meals.png
+SHA1-Digest: /e5dej3AVoFfhTuFlz5yBkP6dJA=
+
+Name: res/drawable-ldpi/launcher.png
+SHA1-Digest: 4DXq1yw12vuIL69NjAEz0MHq6HI=
+
+Name: res/layout/expandable_list.xml
+SHA1-Digest: tpFXcDBo5QYFOhAX1jGreb+iLxU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 7MKQQtq4Pwk03xLCb2DcoKMa0q0=
+
+Name: res/drawable-mdpi/launcher.png
+SHA1-Digest: rcF8Qe0n0T7csVu3WvydqeKEv+E=
+
+Name: res/drawable/listview_selector.xml
+SHA1-Digest: vIjf2Mv/YLPqe3onQTjzJf80eM4=
+
+Name: res/drawable/left_highlighted.png
+SHA1-Digest: kmiNAky20XLvSrKFUU4VfdVXmIE=
+
+Name: res/drawable/roomboard.png
+SHA1-Digest: bISSvWyjkuu1mz2BJCTv2MnhznA=
+
+Name: res/layout/settings_simple_spinner_dropdown_item.xml
+SHA1-Digest: zVuaG1ccBvC3WFp5v9ejOTe9d4E=
+
+Name: res/drawable/guidance.png
+SHA1-Digest: gXdwtUdzrQkM/OkUXHqauTzJP1g=
+
+Name: res/drawable/calender.xml
+SHA1-Digest: GTd704vMgLwOkNQu/ZLHMd532Is=
+
+Name: res/layout/simple_list_item_1.xml
+SHA1-Digest: milBDKNjGi1uUOx3hqhj4ZP+yCQ=
+
+Name: res/drawable-xhdpi/launcher.png
+SHA1-Digest: ih9GXGf+iuI/0LcUUB5GScuoAz4=
+
+Name: res/drawable/bio.png
+SHA1-Digest: iTK0qc/Fsu6QLdxBwjop10Fk/x0=
+
+Name: res/drawable/right_highlighted.png
+SHA1-Digest: NkmPI0sR2EI3XwtUmRSs0QmsObE=
+
+Name: res/layout/mensa_list_header.xml
+SHA1-Digest: hJ8SS7sfaR5Hlh01VZZL/LLEuJI=
+
+Name: res/drawable/left.png
+SHA1-Digest: aTB7P9D8udq6j5e+eYMpD3VaKi4=
+
+Name: res/drawable/blackboard.png
+SHA1-Digest: vzsb+1HtJ+SNbo++m5JwmXhXhmk=
+
+Name: res/drawable/calender_arrow_left.xml
+SHA1-Digest: EYGRQPa5B1t/M+rAks50kDGX424=
+
+Name: res/drawable/rind.png
+SHA1-Digest: ZctZGgM9k72fjYB9NDcn7dtgCQA=
+
+Name: res/drawable/cal.png
+SHA1-Digest: ZNh4rXhmICh3HgJoex9Z2Getc40=
+
+Name: res/layout/group_row.xml
+SHA1-Digest: bXRUGPDXrJ/uyViceBW8OMlDH4w=
+
+Name: res/drawable/schwein.png
+SHA1-Digest: OHTNf89RSmZTp5nMQ1zU7FCvMMU=
+
+Name: res/drawable/bio_old.png
+SHA1-Digest: Aw+85nIMNWECBnJtQlwf+OGhsTU=
+
+Name: res/drawable/vegetarian.png
+SHA1-Digest: 9L9UOR+ZsZRGj6612TZFLw0zXzk=
+
+Name: classes.dex
+SHA1-Digest: EacG1HyQ6pbhbga/qIvX1HR+o8U=
+
+Name: res/layout/mensa_meal_detail.xml
+SHA1-Digest: QNHS955hLQvAh+zTnvF3RJXWfv8=
+
+Name: res/drawable/events.png
+SHA1-Digest: HtuHnyKhK535cUFg37q23ZXMklo=
+
+Name: res/layout/news_item.xml
+SHA1-Digest: xgqLjJ21LHm9Hrrrn5B06F97sw0=
+
+Name: res/layout/main.xml
+SHA1-Digest: 75i0OYQfWm7jR3PU7w3yM8NYJdg=
+
+Name: res/drawable-hdpi/launcher.png
+SHA1-Digest: UUsyhgYNI9Jm9OZHCChiVLomjPg=
+
+Name: res/layout/login.xml
+SHA1-Digest: Q1nuDj2cMp+c1SOXeAzvcD/4i0M=
+
+Name: res/drawable/calender_arrow_right.xml
+SHA1-Digest: tutyMqshaWP1wb6nRrx898ggUho=
+
+Name: res/drawable/rind_aw.png
+SHA1-Digest: 0AFkepfUow6U3+2ctq3cB4pqptI=
+
+Name: res/drawable/msc.png
+SHA1-Digest: tzoUWx+GXxyNwTxEmHIZ5nafzW0=
+
+Name: res/drawable/header.png
+SHA1-Digest: Fw0gTQYTd+orwYlC2xyYllmEjCU=
+
+Name: res/drawable/jobs.png
+SHA1-Digest: brlfw+qHBi4QvbZrVi6mfqDlxQ8=
+
+Name: res/layout/child_row.xml
+SHA1-Digest: 1egJdUp5f8hMJhIFaT9L9dnwsDE=
+
+Name: res/layout/mensa_list_list.xml
+SHA1-Digest: I5DPhWvRNwMcZHP50zaPWV7sbss=
+
+Name: res/drawable/right.png
+SHA1-Digest: 6BAGZHL5zwnO/HmKYMJDIBWL2bk=
+

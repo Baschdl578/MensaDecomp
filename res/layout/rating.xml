@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/ratingStars" />
+    <RatingBar android:id="@id/ratingBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:rating="0.0" android:stepSize="1.0" android:isIndicator="false" style="@style/SwkaTheme" />
+    <View android:id="@id/space0" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_margin="10.0dip" />
+    <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ratingComment" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/darkgrey" android:id="@id/mealTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <EditText android:textColor="@color/black" android:gravity="top" android:id="@id/ratingText" android:background="@color/brightgrey" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_margin="10.0dip" android:cursorVisible="true" android:ems="10" android:singleLine="false" android:inputType="textMultiLine" android:textCursorDrawable="@null" />
+    <Button android:textColor="@color/darkgrey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send" android:onClick="buttonSend" />
+</LinearLayout>

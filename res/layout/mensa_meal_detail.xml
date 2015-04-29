@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@android:id/list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/cp001" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:background="@color/white" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/black" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:id="@id/space0" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/mealPics" android:layout_width="25.0dip" android:layout_height="70.0dip">
+                    <ImageView android:id="@id/mealPic1" android:layout_width="wrap_content" android:layout_height="28.0dip" android:src="@drawable/bio" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/mealPic2" android:layout_width="wrap_content" android:layout_height="28.0dip" android:src="@drawable/msc" android:scaleType="fitCenter" />
+                    <ImageView android:id="@id/mealPic3" android:layout_width="wrap_content" android:layout_height="28.0dip" android:src="@drawable/rind" android:scaleType="fitCenter" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/black" android:id="@id/mealTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/darkgrey" android:id="@id/mealSub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/space1" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" />
+            <TableLayout android:id="@id/priceList" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/price" />
+                    <TextView android:textColor="@color/darkgrey" android:id="@id/mealProFlag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="250.0dip" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/study" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:id="@id/mealPrice_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="250.0dip" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guest" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:id="@id/mealPrice_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="250.0dip" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/employee" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:id="@id/mealPrice_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="250.0dip" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pupil" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:id="@id/mealPrice_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableRow>
+            </TableLayout>
+            <View android:id="@id/View01" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <Button android:textColor="@color/darkgrey" android:id="@id/ratingButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rating" android:onClick="rating_Clicked" />
+            <View android:id="@id/space2" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="10.0dip" />
+            <TableLayout android:id="@id/imageLegend" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="40.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/rind" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mealLegendBeef" />
+                    </TableRow>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="40.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/rind_aw" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mealLegendAdequateAnimalHousing" />
+                    </TableRow>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="40.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/schwein" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mealLegendPork" />
+                    </TableRow>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="40.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/vegetarian" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mealLegendVegetarian" />
+                    </TableRow>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="40.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/vegan" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mealLegendVegan" />
+                    </TableRow>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="40.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/msc" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mealLegendMSCcertifiedFish" />
+                    </TableRow>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="40.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/bio" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mealLegendBioGrowing" />
+                    </TableRow>
+                </TableRow>
+            </TableLayout>
+            <TextView android:textAppearance="?android:textAppearance" android:textSize="11.0dip" android:textColor="@color/darkgrey" android:id="@id/textLegende" android:paddingBottom="90.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/legende" />
+        </LinearLayout>
+    </ScrollView>
+    <WebView android:id="@id/webview" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:overScrollMode="never" />
+</RelativeLayout>

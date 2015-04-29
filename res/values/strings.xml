@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UNIverse</string>
+    <string name="mainButt_1">Essen</string>
+    <string name="mainButt_2">Einstellungen</string>
+    <string name="mainButt_3">News</string>
+    <string name="mainButt_4">Info</string>
+    <string name="mainButt_2_sub">Mensa, Preistyp &amp; Gerichte festlegen.</string>
+    <string name="mainButt_3_sub">Neuigkeiten, Bauarbeiten, Aktionswochen</string>
+    <string name="mainButt_4_sub">Adressen, Legende Speiseplan, u.v.m.</string>
+    <string name="mainExt_0">Zimmervermittlung</string>
+    <string name="mainExt_1">Jobbörse</string>
+    <string name="mainExt_2">Schwarzes Brett</string>
+    <string name="mainExt_3">Tandem</string>
+    <string name="mainExt_4">Veranstaltungen</string>
+    <string name="mainExt_5">Beratung</string>
+    <string name="DIALOG_CONNECTION_ERR">"Could not load Data. 
+Check your internet Connection"</string>
+    <string name="proFlag_1">ab</string>
+    <string name="proFlag_2">pro 100g</string>
+    <string name="dummy">dummyText</string>
+    <string name="study">Studenten</string>
+    <string name="employee">Bedienstete</string>
+    <string name="pupil">Schüler</string>
+    <string name="guest">Gäste</string>
+    <string name="loadingText">Ladevorgang. Bitte einen Moment warten...</string>
+    <string name="emailInputHint">email@beispiel.de</string>
+    <string name="passwordInputHint">Pflichtfeld</string>
+    <string name="checkCredentialsButtonText">Benutzerdaten prüfen</string>
+    <string name="checkCredentialsButtonSuccessText">Benutzerdaten erfolgreich geprüft</string>
+    <string name="loginTitle">Benutzerdaten studentenwerk-karlsruhe.de</string>
+    <string name="loginDescription">"Hier können Sie Ihre Zugangsdaten der studentenwerk-karlsruhe.de Homepage angeben, um im Bereich Zimmervermittlung nähere Details zum Eintrag zu erhalten.
+
+Ihr Passwort wird nicht gespeichert, sondern nur zur Überprüfung Ihres Benutzerkontos genutzt."</string>
+    <string name="loginSublistTitle">Benutzerdaten festlegen</string>
+    <string name="loginUserData_ButtonTitle">Login</string>
+    <string name="rating">Bewerten</string>
+    <string name="send">Senden</string>
+    <string name="ratingComment">Mein Kommentar zum Essen:</string>
+    <string name="ratingStars">Meine Bewertung zum Essen:</string>
+    <string name="price">Preis</string>
+    <string name="mealLegendBeef">enthält Rindfleisch</string>
+    <string name="mealLegendAdequateAnimalHousing">"enthält Rindfleisch aus artgerechter
+Tierhaltung"</string>
+    <string name="mealLegendPork">enthält Schweinefleisch</string>
+    <string name="mealLegendVegetarian">vegetarisches Gericht (ohne Fleischzusatz)</string>
+    <string name="mealLegendVegan">veganes Gericht</string>
+    <string name="mealLegendMSCcertifiedFish">MSC-zertifizierter Fisch</string>
+    <string name="mealLegendBioGrowing">"kontrolliert biologischer Anbau mit EU Bio-
+siegel / DE-ÖKO-007 Kontrollstelle"</string>
+    <string name="legende">"
+ (1) mit Farbstoff 
+ (2) mit Konservierungsstoff 
+ (3) mit Antioxidationsmittel 
+ (4) mit Geschmacksverstärker 
+ (5) mit Phosphat 
+ (6) Oberfläche gewachst 
+ (7) geschwefelt 
+ (8) Oliven geschwärzt 
+ (9) mit Süßungsmittel 
+ (10) kann bei übermäßigem Verzehr abführend wirken 
+ (11) enthält eine Phenylalaninquelle 
+ (12) kann Restalkohol enthalten 
+ (13) Kennzeichnung siehe Tageskarte"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_footer">FooterActivity</string>
+</resources>
